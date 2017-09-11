@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  font-family: Open Sans;
+  color: white;
+}
+
+section {
+  background-color: gray;
+  margin: -2rem;
+}
+section img {
+    height: 45rem;
+    max-width: 80%;
+}
+
+.skills {
+  background: #D7BE82;
+  height: 50rem;
+}
