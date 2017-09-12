@@ -38,11 +38,6 @@ ul {
   margin-bottom: 40%;
 }
 
-
-section img {
-  max-width: 100%;
-}
-
 .skills {
   max-height: 100rem;
   color: rgba(252, 252, 252);
@@ -51,8 +46,12 @@ section img {
   justify-content: center;
 }
 
+.skills i {
+  color: #ffd400;
+}
+
 .skills h1 {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .skills li  {
@@ -104,6 +103,7 @@ section img {
 
 .projects img {
   padding: 10%;
+  max-width: 100%;
 }
 
 footer {
