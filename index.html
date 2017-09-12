@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
   </head>
@@ -13,74 +14,78 @@
     <header id="header">
       <nav class="navbar navbar-inverse">
         <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse"  data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-        <a class="navbar-brand" href="#">ndp</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#skills">Competencies</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-        </ul>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"  data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">ndp</a>
+          </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#skills">Competencies</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+            </ul>
         </div>
       </div>
     </nav>
     </header>
     <section>
       <div class="container-fluid">
-        <img src="luke-chesser-50.jpg" alt="record player and needle">
-        <h1>Nathan Daniel Peterson</h1>
-        <h1>Web Developer</h1>
-        <br>
+        <div class="cover">
+          <div class="nameplate">
+              <h1>Nathan Daniel Peterson</h1>
+              <h2>Web Developer</h2>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="skills" id="skills">
-        <div class="container-fluid">
+    <section class="skills" id="skills">
+      <div class="container-fluid">
+        <div class="row">
           <h1><strong>Core Competencies</strong></h1>
           <h3>Design and Development</h3>
-          <br>
-          <div class="row">
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <ul>
-                <div class="fa-stack fa-lg">
-                  <i class="fa fa-code fa-stack-lg fa-inverse"></i>
-                </div>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>jQuery</li>
-                <li>Bootstrap</li>
-                <li>Materialize</li>
-              </ul>
-            </div>
-            <div class="col-md-4">
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <ul>
               <div class="fa-stack fa-lg">
-                <i class="fa fa-terminal fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-code fa-stack-2x"></i>
               </div>
-              <ul>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>Git</li>
-              </ul>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>jQuery</li>
+              <li>Bootstrap</li>
+              <li>Materialize</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <div class="fa-stack fa-lg">
+              <i class="fa fa-code fa-stack-2x"></i>
             </div>
-            <div class="col-md-4">
-              <ul><i class="fa fa-graduation-cap fa-lg" aria-hidden="true"></i>
-                <li>Galvanize: Certificate of Web Development</li>
-                <li>Rutgers: PhD in English</li>
-                <li>PSU: BA in English</li>
-              </ul>
+            <ul>
+              <li>JavaScript</li>
+              <li>Node.js</li>
+              <li>Git</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <div class="fa-stack fa-lg">
+              <i class="fa fa-code fa-stack-2x"></i>
             </div>
+            <ul>
+              <li>Galvanize: Certificate of Web Development</li>
+              <li>Rutgers: PhD in English</li>
+              <li>PSU: BA in English</li>
+            </ul>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       <section class="about" id="about">
         <div class="container-fluid">
@@ -98,12 +103,13 @@
       </section>
       <section class="projects" id="projects">
         <h1>Projects</h1>
+        <br>
         <div class="row">
           <div class="col-md-6">
-            <h4>Quiz app that lets users test their knowledge of literary history and track their scores with a multiple-choice interface. Built with HTML5, CSS3, JavaScript, jQuery, and Bootstrap.</h4>
+            <img src="litquiz.png">
           </div>
           <div class="col-md-6">
-            <img src="litquiz.png">
+            <h4>Quiz app that lets users test their knowledge of literary history and track their scores with a multiple-choice interface. Built with HTML5, CSS3, JavaScript, jQuery, and Bootstrap.</h4>
           </div>
       </section>
       <footer>
