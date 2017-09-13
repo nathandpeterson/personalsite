@@ -5,14 +5,18 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
+}
+
+h2 {
+  color: black;
 }
 
 .navbar {
   margin-bottom: 0;
 }
 
-ul {
+header ul {
   list-style: none;
   font-size: 2rem;
   width: 30%:
@@ -38,11 +42,20 @@ ul {
   color: white;
 }
 
+h3 {
+  color: #A9A9A9;
+  padding-bottom: 2%;
+}
+
 .skills {
   max-height: 100rem;
   color: rgba(252, 252, 252);
   display: flex;
   justify-content: center;
+}
+
+.skills ul, .skills li {
+  font-size: 1.25rem;
 }
 
 .skills i {
@@ -61,71 +74,102 @@ ul {
 .skills ul {
   list-style: none;
   font-size: 2.5rem;
-  margin-bottom: 25%;
+  margin-bottom: 15%;
+  padding: 0;
+  padding-bottom: 5%;
 }
 
 .about {
   max-height: 100rem;
-  background: gray;
+  background: #A9A9A9;
   display: flex;
-  justify-content: center;
 }
 
 .about h4 {
   color: white;
-  margin-left: 10%;
-}
-
-.about .spacer {
-  height: 10rem;
-}
-
-.wrapper {
-  width: 30%;
 }
 
 .wrapper img {
-  min-height: 20rem;
-  width: 100%;
-  margin: 20% 10%;
+  min-height: 10rem;
+  padding: 5%;
+  width: 70%;
   border-radius: 25%;
 }
 
 .projects {
   background-color: white;
-  color: gray;
+  color: #181818;
   min-height: 40rem;
 }
 
 .projects h4 {
-  margin-top: 15%;
-  padding: 15%;
   background: white;
   color: blue;
 }
 
 .projects img {
-  padding: 10%;
   max-width: 100%;
+  padding: 0 10% 2% 10%;
 }
 
 footer {
-  height: 30rem;
-  background-color: black;
+  height: 12rem;
+  background-color: #181818;
   color: white;
 }
-
 
 footer p {
   margin-top: 5%;
   padding: 5%;
 }
 
-/*@media(min-width: 600px) {
-.skills ul {
-  margin-bottom: 0;
+@media(min-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    color: #A9A9A9;
+  }
+
+  .wrapper {
+    width: 30%;
+  }
+
+  .projects h4 {
+    background: white;
+    color: blue;
+  }
+
+  .skills ul, .skills li {
+    font-size: 2rem;
+  }
+
+  .about {
+    min-height: 40rem;
+    align-items: center;
+  }
+
+  .projects {
+    align-items: center;
+  }
+
+  .projects img {
+    padding: 10%;
+    max-width: 100%;
+  }
+
+  .projects h4 {
+    margin-top: 15%;
+    padding: 15%;
+  }
+
+  footer {
+    height: 30rem;
+    background-color: #303030;
+    color: white;
+  }
 }
-}*/
 
 /*@media(min-width: 420px) {
 .skills ul {
