@@ -6,7 +6,6 @@ body {
 
 h1 {
   font-size: 4rem;
-  color: gray;
 }
 
 .navbar {
@@ -30,19 +29,19 @@ ul {
   height: 100%;
   width: 100%;
   display: flex;
-  border: 1px yellow solid;
+  justify-content: space-around;
 }
 
 .nameplate {
   padding: 5%;
-  margin-bottom: 40%;
+  margin: 10% 0 30% 0;
+  color: white;
 }
 
 .skills {
   max-height: 100rem;
   color: rgba(252, 252, 252);
   display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
@@ -69,12 +68,16 @@ ul {
   max-height: 100rem;
   background: gray;
   display: flex;
+  justify-content: center;
 }
 
 .about h4 {
-  margin-top: 20%;
-  padding: 15% 0 15%;
   color: white;
+  margin-left: 10%;
+}
+
+.about .spacer {
+  height: 10rem;
 }
 
 .wrapper {
@@ -117,3 +120,15 @@ footer p {
   margin-top: 5%;
   padding: 5%;
 }
+
+/*@media(min-width: 600px) {
+.skills ul {
+  margin-bottom: 0;
+}
+}*/
+
+/*@media(min-width: 420px) {
+.skills ul {
+  margin-bottom: 0;
+}
+}*/
