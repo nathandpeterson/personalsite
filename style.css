@@ -92,9 +92,9 @@ h3 {
 }
 
 .wrapper img {
-  min-height: 10rem;
+  min-height: 25rem;
+  width: 20rem;
   padding: 5%;
-  width: 70%;
   border-radius: 25%;
 }
 
@@ -128,7 +128,14 @@ footer p {
   padding: 5%;
 }
 
-@media(min-width: 600px) {
+@media(min-width: 450px) {
+  .about h4 {
+    font-size: 1.75rem;
+  }
+}
+
+
+@media(min-width: 700px) {
   h1 {
     font-size: 4rem;
   }
@@ -147,13 +154,15 @@ footer p {
     font-size: 2rem;
   }
 
-  .about {
+  .about .row {
     min-height: 40rem;
+    display: flex;
     align-items: center;
   }
 
+
   .about h4 {
-    margin-top: 10%;
+    font-size: 2rem;
   }
 
   .projects img {
@@ -175,9 +184,3 @@ footer p {
     color: white;
   }
 }
-
-/*@media(min-width: 420px) {
-.skills ul {
-  margin-bottom: 0;
-}
-}*/
