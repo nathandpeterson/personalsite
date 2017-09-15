@@ -85,15 +85,15 @@ h3 {
   max-height: 100rem;
   background: #A9A9A9;
   display: flex;
+  color: white;
+  margin: 1%;
 }
 
-.about h4 {
-  color: white;
+.about img {
+  max-height: 20rem;
 }
 
 .wrapper img {
-  min-height: 25rem;
-  width: 20rem;
   padding: 5%;
   border-radius: 25%;
 }
@@ -146,27 +146,33 @@ footer p {
       display: inline;
   }
 
+  .about .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
   .wrapper {
     width: 30%;
+  }
+
+  .wrapper img {
+    max-height: 25rem;
+    margin: 20% 5%;
   }
 
   .skills ul, .skills li {
     font-size: 2rem;
   }
 
-  .about .row {
-    min-height: 40rem;
-    display: flex;
-    align-items: center;
-  }
-
-
   .about h4 {
     font-size: 2rem;
+    margin: 5%;
   }
 
   .projects img {
     padding: 5%;
+    min-height: 18rem;
     max-width: 100%;
   }
 
